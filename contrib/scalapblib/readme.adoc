@@ -15,7 +15,7 @@ import contrib.scalapblib._
 
 object example extends ScalaPBModule {
   def scalaVersion = "2.12.6"
-  def scalaPBVersion = "0.7.4"
+  def scalaPBVersion = "0.11.13"
 }
 ----
 
@@ -32,7 +32,7 @@ example/
 
 == Configuration options
 
-* scalaPBVersion (mandatory) - The ScalaPB version `String` e.g. `"0.7.4"`
+* scalaPBVersion (mandatory) - The ScalaPB version `String` e.g. `"0.11.13"`
 
 * scalaPBFlatPackage - A `Boolean` option which determines whether the `.proto` file name should be appended as the final segment of the package name in the generated sources.
 
